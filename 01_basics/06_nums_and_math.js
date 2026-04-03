@@ -60,6 +60,6 @@ console.log(Math.floor(Math.random()*10) + 1); // ye 1 se 10 k beech me dega ran
 // INPORTANT ( agar hume random values generate krwani h min se max k beech me to hum neeche diye gya formula use krte hai )
 const min = 10
 const max = 20
-let randomValue = Math.random() * (max - min) + min
+let randomValue = Math.floor(Math.random() * (max - min)) + min
 console.log(randomValue); // ye 10 se 20 ke beech me random value dega
 
