@@ -52,13 +52,13 @@ let str2 = "shubham"
 let str3 = str1 + " " + str2
 console.log(str3);
 
-console.log("1" + 2); // in 3 cases string concatenation hota hai 
-console.log(1 + "2");
-console.log("1" + 2 + 2);
+console.log("1" + 2); // in 3 cases string concatenation hota hai // 12
+console.log(1 + "2"); //12
+console.log("1" + 2 + 2); // "1" + 2 => "12" + 2 => "122" (left to right evaluation hota hai, isliye pehle "1"+2 hota hai fir uska result string ke sath concatenate hota hai)
 
 console.log(1 + 2 + "2"); // left to right evaluation hota hai, isliye pehle 1+2 hota hai fir uska result string ke sath concatenate hota hai
 
-console.log( (3 + 4) * 5 % 3);
+console.log( (3 + 4) * 5 % 3); // 
 
 console.log(+true); // ye code sabse beakr h likhna esa nhi likhna hota h 
 console.log(+false);

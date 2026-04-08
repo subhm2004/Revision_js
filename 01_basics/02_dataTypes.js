@@ -31,6 +31,8 @@ console.log(typeof isLoggedIn); // boolean
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
 
+// *********************************************************************************************************
+// More on data types
 
 // primitive data types => 7 types ke hote hai 
 // number, string, boolean, null, undefined, symbol, bigint
@@ -51,7 +53,7 @@ console.log(bigNumber);
 
 // non-primitive data types => object, array, function
 
-const heros = ["shaktiman", "doga", "nagraj"]; // array, non-primitive data type
+const heros = ["ironman", "thor", "hulk"]; // array, non-primitive data type
 
 let myObj = {
     name: "shubham",
@@ -67,9 +69,14 @@ const myFunc2 = function() { // function as a variable me store kar sakte hai, a
     console.log("hello world");
 } // function, non-primitive data type
 
-const myFunc3 = () => {
+
+
+// adding function as a value in object
+myObj.greet = function() {
     console.log("hello world");
 } // function, non-primitive data type
+
+console.log(myObj);
 
 console.log(typeof heros); // object, kyuki array bhi object hi hota hai
 console.log(typeof myObj); // object
@@ -106,4 +113,5 @@ let userTwo = userOne;
 userTwo.name = "hardik"; 
 console.log(userOne.name); // hardik, kyuki userOne aur userTwo dono same reference ko point kar rahe hai heap memory me, isliye dono me changes reflect honge
 console.log(userTwo.name); // hardik
+
 

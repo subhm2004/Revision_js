@@ -1,22 +1,24 @@
+//  for each loop ( ye bohot use hota hai )
+
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
-// coding.forEach( function (val){
-//     console.log(val);
-// } )
+coding.forEach( function (item){
+    console.log(item);
+    console.log(item.length);
+    
+} )
 
-// coding.forEach( (item) => {
-//     console.log(item);
-// } )
+// arro function bhi use kr skte hai 
 
-// function printMe(item){
-//     console.log(item);
-// }
+coding.forEach((val)=>{
+     console.log(val);
+    console.log(val.length);
+})
 
-// coding.forEach(printMe)
 
-// coding.forEach( (item, index, arr)=> {
-//     console.log(item, index, arr);
-// } )
+coding.forEach( (item, index, arr)=> {
+    console.log(item, index, arr);
+} )
 
 const myCoding = [
     {

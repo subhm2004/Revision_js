@@ -24,7 +24,7 @@ console.log(gameName.charAt(2)); // 1
 console.log(gameName.indexOf('t')); // -1 (agar string me koi character nahi hai to -1 return krta hai)
 console.log(gameName.indexOf('a')); // 6
 
-const newString = gameName.substring(0, 4) // (start index, length)
+const newString = gameName.substring(0, 4) // (start index, end index - 1)
 console.log(newString); // shub
 
 const anotherString = gameName.slice(-8, 4) // slice me hum negative index bhi de skte hai, negative index ka matlab hai string ke end se count karna

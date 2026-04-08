@@ -1,3 +1,5 @@
+// switch case statement 
+
 // switch (key) {
 //     case value:
         

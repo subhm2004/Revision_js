@@ -1,3 +1,7 @@
+// for in loop ka use krte hai hum objects pr iterate krne k liye 
+// for in loop ka use hum array pr bhi kr skte hai 
+
+// for in loop on objects
 const myObject = {
     js: 'javascript',
     cpp: 'C++',
@@ -6,21 +10,14 @@ const myObject = {
 }
 
 for (const key in myObject) {
-    //console.log(`${key} shortcut is for ${myObject[key]}`);
+    console.log(`${key} shortcut is for ${myObject[key]}`);
 }
 
+// for in loop on arrays 
 const programming = ["js", "rb", "py", "java", "cpp"]
 
 for (const key in programming) {
-    //console.log(programming[key]);
+
+    console.log(`${key} is key and ${programming[key]} is value`);
 }
 
-// const map = new Map()
-// map.set('IN', "India")
-// map.set('USA', "United States of America")
-// map.set('Fr', "France")
-// map.set('IN', "India")
-
-// for (const key in map) {
-//     console.log(key);
-// }
